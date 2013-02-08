@@ -43,6 +43,14 @@
 		4F3B0B44158B50A5001B0CEF /* libAAXLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8B6723158B4EB2002FC25B /* libAAXLibrary.a */; };
 		4F3EE94613B65A350097B791 /* IPlugOSDetect.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F3EE94513B65A350097B791 /* IPlugOSDetect.h */; };
 		4F3EE94913B65A350097B791 /* IPlugOSDetect.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F3EE94513B65A350097B791 /* IPlugOSDetect.h */; };
+		4F5B0D1316C5210600A9C894 /* maximilian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B0D1116C5210600A9C894 /* maximilian.cpp */; };
+		4F5B0D1416C5210600A9C894 /* maximilian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B0D1116C5210600A9C894 /* maximilian.cpp */; };
+		4F5B0D1516C5210600A9C894 /* maximilian.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F5B0D1216C5210600A9C894 /* maximilian.h */; };
+		4F5B0D1616C5210600A9C894 /* maximilian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B0D1116C5210600A9C894 /* maximilian.cpp */; };
+		4F5B0D1716C5210600A9C894 /* maximilian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B0D1116C5210600A9C894 /* maximilian.cpp */; };
+		4F5B0D1816C5210600A9C894 /* maximilian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B0D1116C5210600A9C894 /* maximilian.cpp */; };
+		4F5B0D1916C5210600A9C894 /* maximilian.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F5B0D1216C5210600A9C894 /* maximilian.h */; };
+		4F5B0D1A16C5210600A9C894 /* maximilian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B0D1116C5210600A9C894 /* maximilian.cpp */; };
 		4F78D70B13B637340032E0F3 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F78D62313B637200032E0F3 /* CoreFoundation.framework */; };
 		4F78D7D013B637790032E0F3 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F78D7CF13B637790032E0F3 /* CoreMIDI.framework */; };
 		4F78D86E13B637A20032E0F3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F7E65807B2D6F200F64583 /* CoreData.framework */; };
@@ -259,14 +267,6 @@
 		4FD16D4213B635AB001D0217 /* swell-wnd.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FD16D4113B635AB001D0217 /* swell-wnd.mm */; };
 		4FD16D4413B635B2001D0217 /* swell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FD16D4313B635B2001D0217 /* swell.cpp */; };
 		4FD16D4713B635C8001D0217 /* swellappmain.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FD16D4613B635C8001D0217 /* swellappmain.mm */; };
-		4FD60A0D16C5120200003A18 /* maximilian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FD60A0B16C5120200003A18 /* maximilian.cpp */; };
-		4FD60A0E16C5120200003A18 /* maximilian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FD60A0B16C5120200003A18 /* maximilian.cpp */; };
-		4FD60A0F16C5120200003A18 /* maximilian.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FD60A0C16C5120200003A18 /* maximilian.h */; };
-		4FD60A1016C5120200003A18 /* maximilian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FD60A0B16C5120200003A18 /* maximilian.cpp */; };
-		4FD60A1116C5120200003A18 /* maximilian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FD60A0B16C5120200003A18 /* maximilian.cpp */; };
-		4FD60A1216C5120200003A18 /* maximilian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FD60A0B16C5120200003A18 /* maximilian.cpp */; };
-		4FD60A1316C5120200003A18 /* maximilian.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FD60A0C16C5120200003A18 /* maximilian.h */; };
-		4FD60A1416C5120200003A18 /* maximilian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FD60A0B16C5120200003A18 /* maximilian.cpp */; };
 		4FDA440713F3E4F2000B4551 /* IBitmapMonoText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FDA440513F3E4F2000B4551 /* IBitmapMonoText.cpp */; };
 		4FDA440813F3E4F2000B4551 /* IBitmapMonoText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FDA440513F3E4F2000B4551 /* IBitmapMonoText.cpp */; };
 		4FDA440913F3E4F2000B4551 /* IBitmapMonoText.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDA440613F3E4F2000B4551 /* IBitmapMonoText.h */; };
@@ -525,6 +525,8 @@
 		4F4CC4261549BED600A9EA21 /* IPlugAAX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IPlugAAX.h; path = ../../WDL/IPlug/IPlugAAX.h; sourceTree = SOURCE_ROOT; };
 		4F4CC4401549C15500A9EA21 /* IPlugAAX_Describe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IPlugAAX_Describe.cpp; path = ../../WDL/IPlug/AAX/IPlugAAX_Describe.cpp; sourceTree = SOURCE_ROOT; };
 		4F4F73791576739300C124E3 /* AAX_CIPlugTaperDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AAX_CIPlugTaperDelegate.h; path = ../../WDL/IPlug/AAX/AAX_CIPlugTaperDelegate.h; sourceTree = SOURCE_ROOT; };
+		4F5B0D1116C5210600A9C894 /* maximilian.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = maximilian.cpp; path = maximilian/maximilian.cpp; sourceTree = "<group>"; };
+		4F5B0D1216C5210600A9C894 /* maximilian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = maximilian.h; path = maximilian/maximilian.h; sourceTree = "<group>"; };
 		4F78D62313B637200032E0F3 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		4F78D7CF13B637790032E0F3 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
 		4F78D89613B639100032E0F3 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = InfoPlist.strings; sourceTree = "<group>"; };
@@ -633,8 +635,6 @@
 		4FD16D4513B635C8001D0217 /* swellappmain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = swellappmain.h; path = ../../WDL/swell/swellappmain.h; sourceTree = SOURCE_ROOT; };
 		4FD16D4613B635C8001D0217 /* swellappmain.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = swellappmain.mm; path = ../../WDL/swell/swellappmain.mm; sourceTree = SOURCE_ROOT; };
 		4FD290A8137C34D700CEBE7E /* IPlugMaxi.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = IPlugMaxi.icns; path = resources/IPlugMaxi.icns; sourceTree = "<group>"; };
-		4FD60A0B16C5120200003A18 /* maximilian.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maximilian.cpp; sourceTree = "<group>"; };
-		4FD60A0C16C5120200003A18 /* maximilian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maximilian.h; sourceTree = "<group>"; };
 		4FDA440513F3E4F2000B4551 /* IBitmapMonoText.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IBitmapMonoText.cpp; path = ../../WDL/IPlug/IBitmapMonoText.cpp; sourceTree = SOURCE_ROOT; };
 		4FDA440613F3E4F2000B4551 /* IBitmapMonoText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IBitmapMonoText.h; path = ../../WDL/IPlug/IBitmapMonoText.h; sourceTree = SOURCE_ROOT; };
 		4FF016F4134E14E2001447BA /* mutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mutex.h; path = ../../WDL/mutex.h; sourceTree = SOURCE_ROOT; };
@@ -737,8 +737,8 @@
 				52FBBED30D0CF143001C8B8A /* resource.h */,
 				52FBBED20D0CF13D001C8B8A /* IPlugMaxi.h */,
 				52FBBED00D0CF139001C8B8A /* IPlugMaxi.cpp */,
-				4FD60A0B16C5120200003A18 /* maximilian.cpp */,
-				4FD60A0C16C5120200003A18 /* maximilian.h */,
+				4F5B0D1116C5210600A9C894 /* maximilian.cpp */,
+				4F5B0D1216C5210600A9C894 /* maximilian.h */,
 				089C167CFE841241C02AAC07 /* Resources */,
 				32C88E010371C26100C91783 /* Other Sources */,
 				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
@@ -1372,7 +1372,7 @@
 				4F3EE94913B65A350097B791 /* IPlugOSDetect.h in Headers */,
 				4FDA440913F3E4F2000B4551 /* IBitmapMonoText.h in Headers */,
 				4FA88B931444E4C4006CB8DA /* dfx-au-utilities.h in Headers */,
-				4FD60A0F16C5120200003A18 /* maximilian.h in Headers */,
+				4F5B0D1516C5210600A9C894 /* maximilian.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1419,7 +1419,7 @@
 				4F78DAA613B640050032E0F3 /* IGraphics.h in Headers */,
 				4F3EE94613B65A350097B791 /* IPlugOSDetect.h in Headers */,
 				4FDA440F13F3E4F2000B4551 /* IBitmapMonoText.h in Headers */,
-				4FD60A1316C5120200003A18 /* maximilian.h in Headers */,
+				4F5B0D1916C5210600A9C894 /* maximilian.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1754,7 +1754,7 @@
 				4F78D9C913B63BA50032E0F3 /* IControl.cpp in Sources */,
 				4F78D9F313B63C6A0032E0F3 /* IPlugVST.cpp in Sources */,
 				4FDA440C13F3E4F2000B4551 /* IBitmapMonoText.cpp in Sources */,
-				4FD60A1116C5120200003A18 /* maximilian.cpp in Sources */,
+				4F5B0D1716C5210600A9C894 /* maximilian.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1779,7 +1779,7 @@
 				4F78DA0A13B63CD90032E0F3 /* IPlugAU_ViewFactory.mm in Sources */,
 				4FDA440813F3E4F2000B4551 /* IBitmapMonoText.cpp in Sources */,
 				4F296BDA1678E6C800C0F5C2 /* dfx-au-utilities.c in Sources */,
-				4FD60A0E16C5120200003A18 /* maximilian.cpp in Sources */,
+				4F5B0D1416C5210600A9C894 /* maximilian.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1810,7 +1810,7 @@
 				4F7F5CB313E9607A002918FD /* IPlugProcessRTAS.cpp in Sources */,
 				4FDA440713F3E4F2000B4551 /* IBitmapMonoText.cpp in Sources */,
 				4F79A34E146304CD00744AED /* IPlugProcessAS.cpp in Sources */,
-				4FD60A0D16C5120200003A18 /* maximilian.cpp in Sources */,
+				4F5B0D1316C5210600A9C894 /* maximilian.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1850,7 +1850,7 @@
 				4F9828D4140A9EB700F3FCC1 /* conststringtable.cpp in Sources */,
 				4F9828D5140A9EB700F3FCC1 /* funknown.cpp in Sources */,
 				4F9828D6140A9EB700F3FCC1 /* ustring.cpp in Sources */,
-				4FD60A1016C5120200003A18 /* maximilian.cpp in Sources */,
+				4F5B0D1616C5210600A9C894 /* maximilian.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1876,7 +1876,7 @@
 				4FB600271567CB0A0020189A /* IPlugAAX.cpp in Sources */,
 				4FB600281567CB0A0020189A /* IPlugAAX_Describe.cpp in Sources */,
 				4FB600291567CB0A0020189A /* AAX_CIPlugParameters.cpp in Sources */,
-				4FD60A1416C5120200003A18 /* maximilian.cpp in Sources */,
+				4F5B0D1A16C5210600A9C894 /* maximilian.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1914,7 +1914,7 @@
 				4FD16CA313B6327D001D0217 /* app_dialog.cpp in Sources */,
 				4FB3624F13B648FE00DB6B76 /* main.mm in Sources */,
 				4FDA440E13F3E4F2000B4551 /* IBitmapMonoText.cpp in Sources */,
-				4FD60A1216C5120200003A18 /* maximilian.cpp in Sources */,
+				4F5B0D1816C5210600A9C894 /* maximilian.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

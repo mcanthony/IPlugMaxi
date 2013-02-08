@@ -180,13 +180,15 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 382013934;
-			PBXWorkspaceStateSaveDate = 382013934;
+			PBXPerProjectTemplateStateSaveDate = 382017767;
+			PBXWorkspaceStateSaveDate = 382017767;
 		};
 		perUserProjectItems = {
-			4FD60A3016C51F0C00003A18 /* PBXTextBookmark */ = 4FD60A3016C51F0C00003A18 /* PBXTextBookmark */;
-			4FD60A3116C51F0C00003A18 /* PBXTextBookmark */ = 4FD60A3116C51F0C00003A18 /* PBXTextBookmark */;
-			4FD60A3216C51F0C00003A18 /* PBXTextBookmark */ = 4FD60A3216C51F0C00003A18 /* PBXTextBookmark */;
+			4F5B0D1D16C5216F00A9C894 /* PBXTextBookmark */ = 4F5B0D1D16C5216F00A9C894 /* PBXTextBookmark */;
+			4F5B0D1E16C5216F00A9C894 /* PBXTextBookmark */ = 4F5B0D1E16C5216F00A9C894 /* PBXTextBookmark */;
+			4F5B0D1F16C5216F00A9C894 /* PBXTextBookmark */ = 4F5B0D1F16C5216F00A9C894 /* PBXTextBookmark */;
+			4F5B0D2016C5216F00A9C894 /* PBXBookmark */ = 4F5B0D2016C5216F00A9C894 /* PBXBookmark */;
+			4F5B0D2116C5216F00A9C894 /* PBXTextBookmark */ = 4F5B0D2116C5216F00A9C894 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 4FE33FF310B4519D00B5FB70 /* Source Control */;
 		userBuildSettings = {
@@ -654,6 +656,64 @@
 			sepNavSelRange = "{1006, 51}";
 			sepNavVisRange = "{128, 1278}";
 		};
+	};
+	4F5B0D1116C5210600A9C894 /* maximilian.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {30287, 15379}}";
+			sepNavSelRange = "{23734, 0}";
+			sepNavVisRange = "{23223, 1560}";
+		};
+	};
+	4F5B0D1216C5210600A9C894 /* maximilian.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1244, 6344}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2082}";
+		};
+	};
+	4F5B0D1D16C5216F00A9C894 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52FBBED00D0CF139001C8B8A /* IPlugMaxi.cpp */;
+		name = "IPlugMaxi.cpp: 14";
+		rLen = 0;
+		rLoc = 1064;
+		rType = 0;
+		vrLen = 2821;
+		vrLoc = 0;
+	};
+	4F5B0D1E16C5216F00A9C894 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52FBBED20D0CF13D001C8B8A /* IPlugMaxi.h */;
+		name = "IPlugMaxi.h: 27";
+		rLen = 0;
+		rLoc = 528;
+		rType = 0;
+		vrLen = 1123;
+		vrLoc = 0;
+	};
+	4F5B0D1F16C5216F00A9C894 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4F5B0D1216C5210600A9C894 /* maximilian.h */;
+		name = "maximilian.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2082;
+		vrLoc = 0;
+	};
+	4F5B0D2016C5216F00A9C894 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 4F5B0D1116C5210600A9C894 /* maximilian.cpp */;
+	};
+	4F5B0D2116C5216F00A9C894 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4F5B0D1116C5210600A9C894 /* maximilian.cpp */;
+		name = "maximilian.cpp: 398";
+		rLen = 0;
+		rLoc = 23734;
+		rType = 0;
+		vrLen = 1560;
+		vrLoc = 23223;
 	};
 	4F647528132A790E00D7E58C /* Auval */ = {
 		isa = PBXExecutable;
@@ -1611,36 +1671,6 @@
 			sepNavWindowFrame = "{{38, 92}, {1416, 1060}}";
 		};
 	};
-	4FD60A3016C51F0C00003A18 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52FBBED20D0CF13D001C8B8A /* IPlugMaxi.h */;
-		name = "IPlugMaxi.h: 27";
-		rLen = 0;
-		rLoc = 528;
-		rType = 0;
-		vrLen = 1123;
-		vrLoc = 0;
-	};
-	4FD60A3116C51F0C00003A18 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52FBBED00D0CF139001C8B8A /* IPlugMaxi.cpp */;
-		name = "IPlugMaxi.cpp: 31";
-		rLen = 0;
-		rLoc = 1667;
-		rType = 0;
-		vrLen = 2886;
-		vrLoc = 0;
-	};
-	4FD60A3216C51F0C00003A18 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 52FBBED00D0CF139001C8B8A /* IPlugMaxi.cpp */;
-		name = "IPlugMaxi.cpp: 19";
-		rLen = 0;
-		rLoc = 1147;
-		rType = 0;
-		vrLen = 2839;
-		vrLoc = 0;
-	};
 	4FDA440513F3E4F2000B4551 /* IBitmapMonoText.cpp */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1120, 1261}}";
@@ -1938,15 +1968,15 @@
 	};
 	52FBBED00D0CF139001C8B8A /* IPlugMaxi.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {3876, 1365}}";
-			sepNavSelRange = "{1147, 0}";
-			sepNavVisRange = "{0, 2839}";
+			sepNavIntBoundsRect = "{{0, 0}, {3876, 1300}}";
+			sepNavSelRange = "{1064, 0}";
+			sepNavVisRange = "{0, 2821}";
 			sepNavWindowFrame = "{{15, 109}, {1089, 914}}";
 		};
 	};
 	52FBBED20D0CF13D001C8B8A /* IPlugMaxi.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1244, 849}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1244, 822}}";
 			sepNavSelRange = "{528, 0}";
 			sepNavVisRange = "{0, 1123}";
 		};
