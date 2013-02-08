@@ -2,7 +2,7 @@
 #define __IPLUGMAXI__
 
 #include "IPlug_include_in_plug_hdr.h"
-#include "maximilian.h"
+#include "maximilian/maximilian.h"
 
 // copied from maximillian "replicant" example 
 // doesn't seem to work properly on windows :-(

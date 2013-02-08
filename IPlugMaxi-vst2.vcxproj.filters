@@ -5,6 +5,7 @@
     <ClCompile Include="..\..\WDL\IPlug\IPlugVST.cpp">
       <Filter>vst2</Filter>
     </ClCompile>
+    <ClCompile Include="maximilian\maximilian.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IPlugMaxi.h" />
@@ -12,6 +13,7 @@
     <ClInclude Include="..\..\WDL\IPlug\IPlugVST.h">
       <Filter>vst2</Filter>
     </ClInclude>
+    <ClInclude Include="maximilian\maximilian.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="IPlugMaxi.rc" />

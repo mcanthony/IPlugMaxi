@@ -75,7 +75,7 @@ void IPlugMaxi::ProcessDoubleReplacing(double** inputs, double** outputs, int nF
     
     bassout = filter2.lores(envelope.adsr(bass.saw(currentPitch*0.5)+sound.pulse(currentPitch*0.5,mod.phasor(1)),1,0.9995, 0.25, 0.9995, 1, trigger),9250,2); // new, simple ADSR. 
     leadout = filter.lores(leadenvelope.ar(lead2.saw(leadPitch*4)+lead.pulse(leadPitch+(leadmod.sinebuf(1.9)*1.5), 0.6), 0.00005, 0.999975, 50000, trigger2),5900,10); // leadline
-    
+
     bassout *= GetParam(kBassGain)->GetNormalized();
     leadout *= GetParam(kLeadGain)->GetNormalized();
     

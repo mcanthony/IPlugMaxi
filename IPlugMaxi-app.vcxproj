@@ -271,6 +271,7 @@
     <ClInclude Include="app_wrapper\app_main.h" />
     <ClInclude Include="app_wrapper\app_resource.h" />
     <ClInclude Include="IPlugMaxi.h" />
+    <ClInclude Include="maximilian\maximilian.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
@@ -283,6 +284,7 @@
     <ClCompile Include="app_wrapper\app_dialog.cpp" />
     <ClCompile Include="app_wrapper\app_main.cpp" />
     <ClCompile Include="IPlugMaxi.cpp" />
+    <ClCompile Include="maximilian\maximilian.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="IPlugMaxi.rc" />

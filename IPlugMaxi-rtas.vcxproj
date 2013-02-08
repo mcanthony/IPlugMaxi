@@ -300,6 +300,7 @@ copy /Y "$(TargetPath)".rsr "$(RTAS_PLUGINS_PATH)\$(BINARY_NAME).dpm.rsr"
     <ClInclude Include="..\..\WDL\IPlug\RTAS\ProcessInterface.h" />
     <ClInclude Include="..\..\WDL\IPlug\RTAS\digicode.h" />
     <ClInclude Include="IPlugMaxi.h" />
+    <ClInclude Include="maximilian\maximilian.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
@@ -323,6 +324,7 @@ copy /Y "$(TargetPath)".rsr "$(RTAS_PLUGINS_PATH)\$(BINARY_NAME).dpm.rsr"
     <ClCompile Include="..\..\WDL\IPlug\RTAS\digicode2.cpp" />
     <ClCompile Include="..\..\WDL\IPlug\RTAS\digicode3.cpp" />
     <ClCompile Include="IPlugMaxi.cpp" />
+    <ClCompile Include="maximilian\maximilian.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="IPlugMaxi-rtas.def" />
